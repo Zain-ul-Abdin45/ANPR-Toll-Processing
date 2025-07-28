@@ -1,0 +1,107 @@
+2025-07-19 11:24:09,917 | INFO | --- Processing entry for: EU-5678-BB ---
+2025-07-19 11:24:09,930 | INFO | Result: {'status': 'ERROR', 'message': 'connection to server at "localhost" (::1), port 5432 failed: FATAL:  role "your_user" does not exist\n'}
+2025-07-19 11:29:15,091 | INFO | --- Processing entry for: EU-5678-BB ---
+2025-07-19 11:29:15,103 | INFO | Result: {'status': 'ERROR', 'message': 'connection to server at "localhost" (::1), port 5432 failed: FATAL:  role "admin" does not exist\n'}
+2025-07-19 12:08:19,182 | INFO | plate_logger | --- Processing entry for: EU-5678-BB ---
+2025-07-19 12:08:19,182 | INFO | plate_logger | Result: {'status': 'ERROR', 'message': "'user'"}
+2025-07-19 12:09:48,812 | INFO | plate_logger | --- Processing entry for: EU-5678-BB ---
+2025-07-19 12:09:48,812 | INFO | plate_logger | Result: {'status': 'ERROR', 'message': "'host'"}
+2025-07-19 12:10:02,121 | INFO | plate_logger | --- Processing entry for: EU-5678-BB ---
+2025-07-19 12:10:02,121 | INFO | plate_logger | Result: {'status': 'ERROR', 'message': "'host'"}
+2025-07-19 12:10:21,896 | INFO | plate_logger | --- Processing entry for: EU-5678-BB ---
+2025-07-19 12:10:21,898 | INFO | plate_logger | Result: {'status': 'ERROR', 'message': 'connection to server at "localhost" (::1), port 8080 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\nconnection to server at "localhost" (127.0.0.1), port 8080 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n'}
+2025-07-19 12:14:49,544 | INFO | plate_logger | --- Processing entry for: EU-5678-BB ---
+2025-07-19 12:14:49,556 | INFO | plate_logger | Result: {'status': 'ERROR', 'message': 'connection to server at "localhost" (::1), port 5432 failed: FATAL:  role "admin" does not exist\n'}
+2025-07-19 12:15:49,905 | INFO | plate_logger | --- Processing entry for: EU-5678-BB ---
+2025-07-19 12:15:49,918 | INFO | plate_logger | Result: {'status': 'ERROR', 'message': 'connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "open_api_db" does not exist\n'}
+2025-07-19 12:16:06,384 | INFO | plate_logger | --- Processing entry for: EU-5678-BB ---
+2025-07-19 12:16:06,396 | INFO | plate_logger | Vehicle verified: EU-5678-BB | type=SUV
+2025-07-19 12:16:06,398 | INFO | plate_logger | Result: {'status': 'ERROR', 'message': 'relation "stolen_vehicle_registry" does not exist\nLINE 2:         SELECT reportedDate, reportingAgency FROM stolen_veh...\n                                                          ^\n'}
+2025-07-19 12:23:13,951 | INFO | plate_logger | --- Processing entry for: EU-5678-BB ---
+2025-07-19 12:23:13,969 | INFO | plate_logger | Vehicle verified: EU-5678-BB | type=SUV
+2025-07-19 12:23:13,973 | INFO | plate_logger | Result: {'status': 'ERROR', 'message': 'relation "blacklisted_rfid" does not exist\nLINE 2:         SELECT reason, severity FROM blacklisted_rfid\n                                             ^\n'}
+2025-07-19 12:24:28,750 | INFO | plate_logger | --- Processing entry for: EU-5678-BB ---
+2025-07-19 12:24:28,767 | INFO | plate_logger | Vehicle verified: EU-5678-BB | type=SUV
+2025-07-19 12:24:28,770 | INFO | plate_logger | Result: {'status': 'ERROR', 'message': 'column "tag_id" does not exist\nLINE 3:         WHERE tag_id = \'TAG002\'\n                      ^\nHINT:  Perhaps you meant to reference the column "blacklisted_rfid.tagid".\n'}
+2025-07-19 12:28:04,563 | INFO | plate_logger | --- Processing entry for: EU-5678-BB ---
+2025-07-19 12:28:04,578 | INFO | plate_logger | Vehicle verified: EU-5678-BB | type=SUV
+2025-07-19 12:28:04,581 | INFO | plate_logger | Result: {'status': 'ERROR', 'message': 'relation "notification" does not exist\nLINE 2:         INSERT INTO notification (notification_id, message, ...\n                            ^\n'}
+2025-07-19 12:29:21,519 | INFO | plate_logger | --- Processing entry for: EU-5678-BB ---
+2025-07-19 12:29:21,535 | INFO | plate_logger | Vehicle verified: EU-5678-BB | type=SUV
+2025-07-19 12:29:21,541 | INFO | plate_logger | Result: {'status': 'BLACKLISTED', 'details': 'Cloned tag detected'}
+2025-07-19 16:22:07,736 | INFO | plate_logger | Vehicle verified: EU-7152-DD | type=SUV
+2025-07-19 16:24:43,744 | INFO | plate_logger | Vehicle verified: EU-8380-BB | type=SUV
+2025-07-19 16:26:58,036 | INFO | plate_logger | Vehicle verified: EU-3191-DD | type=SEDAN
+2025-07-19 16:27:03,018 | INFO | plate_logger | Vehicle verified: EU-3191-DD | type=SEDAN
+2025-07-19 16:27:03,744 | INFO | plate_logger | Vehicle verified: EU-3191-DD | type=SEDAN
+2025-07-19 16:27:04,346 | INFO | plate_logger | Vehicle verified: EU-3191-DD | type=SEDAN
+2025-07-19 16:27:05,465 | INFO | plate_logger | Vehicle verified: EU-3191-DD | type=SEDAN
+2025-07-19 16:43:44,849 | INFO | plate_logger | Vehicle verified: EU-3191-DD | type=SEDAN
+2025-07-19 16:44:23,834 | INFO | plate_logger | Vehicle verified: EU-3191-DD | type=SEDAN
+2025-07-19 16:44:24,631 | INFO | plate_logger | Vehicle verified: EU-3191-DD | type=SEDAN
+2025-07-19 17:01:54,598 | INFO | plate_logger | Vehicle verified: EU-3497-CC | type=TRUCK
+2025-07-20 17:39:22,938 | INFO | plate_logger | Vehicle verified: EU-4567-ZZ | Type=SEDAN
+2025-07-21 00:11:39,164 | INFO | plate_logger | Vehicle verified: EU-1800-BB | Type=SUV
+2025-07-21 16:13:22,319 | INFO | plate_logger | Vehicle verified: EU-4567-ZZ | Type=SEDAN
+2025-07-21 16:18:22,054 | INFO | plate_logger | Vehicle verified: EU-1800-BB | Type=SUV
+2025-07-21 20:14:53,292 | INFO | plate_logger | Vehicle verified: EU-4567-ZZ | Type=SEDAN
+2025-07-21 20:20:20,726 | INFO | plate_logger | Vehicle verified: EU-4567-ZZ | Type=SEDAN
+2025-07-21 20:23:13,143 | INFO | plate_logger | Vehicle verified: EU-4567-ZZ | Type=SEDAN
+2025-07-21 20:23:42,237 | INFO | plate_logger | Vehicle verified: EU-4567-ZZ | Type=SEDAN
+2025-07-21 21:05:38,988 | INFO | plate_logger | Vehicle verified: EU-4567-ZZ | Type=SEDAN
+2025-07-21 21:10:17,045 | INFO | plate_logger | Vehicle verified: EU-4567-ZZ | Type=SEDAN
+2025-07-21 21:10:31,316 | INFO | plate_logger | Vehicle verified: EU-4567-ZZ | Type=SEDAN
+2025-07-21 21:14:31,145 | INFO | plate_logger | Vehicle verified: EU-4567-ZZ | Type=SEDAN
+2025-07-21 21:15:12,768 | INFO | plate_logger | Vehicle verified: EU-4567-ZZ | Type=SEDAN
+2025-07-21 21:17:05,618 | INFO | plate_logger | Vehicle verified: EU-4567-ZZ | Type=SEDAN
+2025-07-21 21:31:00,399 | INFO | plate_logger | Vehicle verified: EU-4567-ZZ | Type=SEDAN
+2025-07-21 21:34:01,876 | INFO | plate_logger | Vehicle verified: EU-4567-ZZ | Type=SEDAN
+2025-07-21 21:43:17,607 | INFO | plate_logger | Vehicle verified: EU-4567-ZZ | Type=SEDAN
+2025-07-23 12:08:56,260 | INFO | plate_logger | Vehicle verified: EU-4567-ZZ | Type=SEDAN
+2025-07-23 12:22:56,990 | INFO | plate_logger | Vehicle verified: EU-4567-ZZ | Type=SEDAN
+2025-07-23 12:36:45,131 | INFO | plate_logger | Vehicle verified: EU-4567-ZZ | Type=SEDAN
+2025-07-23 12:42:19,020 | INFO | plate_logger | Vehicle verified: EU-4567-ZZ | Type=SEDAN
+2025-07-23 12:58:20,225 | INFO | plate_logger | Vehicle verified: EU-3497-CC | Type=TRUCK
+2025-07-23 12:59:02,706 | INFO | plate_logger | Vehicle verified: EU-3416-CC | Type=SEDAN
+2025-07-23 13:00:47,293 | INFO | plate_logger | Vehicle verified: EU-3416-CC | Type=SEDAN
+2025-07-23 13:19:37,140 | INFO | plate_logger | Vehicle verified: EU-3416-CC | Type=SEDAN
+2025-07-23 13:26:33,860 | INFO | plate_logger | Vehicle verified: EU-3416-CC | Type=SEDAN
+2025-07-23 13:28:39,672 | INFO | plate_logger | Vehicle verified: EU-3416-CC | Type=SEDAN
+2025-07-23 13:33:26,003 | INFO | plate_logger | Vehicle verified: EU-3416-CC | Type=SEDAN
+2025-07-23 13:41:55,884 | INFO | plate_logger | Vehicle verified: EU-3497-CC | Type=TRUCK
+2025-07-23 13:42:14,409 | INFO | plate_logger | Vehicle verified: EU-9306-AA | Type=SUV
+2025-07-23 15:33:17,681 | INFO | plate_logger | Vehicle verified: EU-9306-AA | Type=SUV
+2025-07-23 15:34:16,134 | WARNING | plate_logger | Unknown vehicle: EU-9306-AK
+2025-07-24 12:07:45,880 | INFO | plate_logger | Vehicle verified: EU-4567-ZZ | Type=SEDAN
+2025-07-24 20:10:05,871 | INFO | plate_logger | Vehicle verified: EU-3756-AA | Type=SEDAN
+2025-07-24 20:10:08,735 | INFO | plate_logger | Vehicle verified: EU-3756-AA | Type=SEDAN
+2025-07-24 20:10:35,439 | INFO | plate_logger | Vehicle verified: EU-3756-AA | Type=SEDAN
+2025-07-24 20:11:26,311 | INFO | plate_logger | Vehicle verified: EU-3497-CC | Type=TRUCK
+2025-07-24 20:18:33,058 | INFO | plate_logger | Vehicle verified: EU-3497-CC | Type=TRUCK
+2025-07-24 20:20:01,126 | INFO | plate_logger | Vehicle verified: EU-3497-CC | Type=TRUCK
+2025-07-24 20:23:26,487 | INFO | plate_logger | Vehicle verified: EU-3497-CC | Type=TRUCK
+2025-07-24 20:23:51,351 | INFO | plate_logger | Vehicle verified: EU-3497-CC | Type=TRUCK
+2025-07-24 20:27:31,167 | INFO | plate_logger | Vehicle verified: EU-3497-CC | Type=TRUCK
+2025-07-24 20:30:54,048 | INFO | plate_logger | Vehicle verified: EU-3497-CC | Type=TRUCK
+2025-07-24 20:31:23,232 | INFO | plate_logger | Vehicle verified: EU-3497-CC | Type=TRUCK
+2025-07-24 20:34:35,840 | INFO | plate_logger | Vehicle verified: EU-3497-CC | Type=TRUCK
+2025-07-24 20:34:50,558 | INFO | plate_logger | Vehicle verified: EU-3497-CC | Type=TRUCK
+2025-07-24 20:35:13,941 | INFO | plate_logger | Vehicle verified: EU-3497-CC | Type=TRUCK
+2025-07-24 20:35:51,891 | INFO | plate_logger | Vehicle verified: EU-3497-CC | Type=TRUCK
+2025-07-24 20:36:39,517 | INFO | plate_logger | Vehicle verified: EU-3497-CC | Type=TRUCK
+2025-07-24 20:37:36,381 | INFO | plate_logger | Vehicle verified: EU-3497-CC | Type=TRUCK
+2025-07-24 20:37:57,186 | INFO | plate_logger | Vehicle verified: EU-3497-CC | Type=TRUCK
+2025-07-24 20:38:27,275 | INFO | plate_logger | Vehicle verified: EU-3497-CC | Type=TRUCK
+2025-07-24 20:38:27,390 | INFO | plate_logger | Vehicle verified: EU-3497-CC | Type=TRUCK
+2025-07-24 20:38:27,562 | INFO | plate_logger | Vehicle verified: EU-3497-CC | Type=TRUCK
+2025-07-24 20:38:27,714 | INFO | plate_logger | Vehicle verified: EU-3497-CC | Type=TRUCK
+2025-07-24 20:38:27,839 | INFO | plate_logger | Vehicle verified: EU-3497-CC | Type=TRUCK
+2025-07-24 20:38:27,981 | INFO | plate_logger | Vehicle verified: EU-3497-CC | Type=TRUCK
+2025-07-24 20:38:56,889 | INFO | plate_logger | Vehicle verified: EU-3497-CC | Type=TRUCK
+2025-07-24 20:42:24,376 | INFO | plate_logger | Vehicle verified: EU-3497-CC | Type=TRUCK
+2025-07-24 20:42:26,319 | INFO | plate_logger | Vehicle verified: EU-3497-CC | Type=TRUCK
+2025-07-24 20:43:40,412 | INFO | plate_logger | Vehicle verified: EU-3497-CC | Type=TRUCK
+2025-07-24 20:56:19,076 | INFO | plate_logger | Vehicle verified: EU-3497-CC | Type=TRUCK
+2025-07-24 21:08:04,190 | INFO | plate_logger | Vehicle verified: EU-3497-CC | Type=TRUCK
+2025-07-24 21:11:39,494 | INFO | plate_logger | Vehicle verified: EU-3497-CC | Type=TRUCK
+2025-07-24 21:12:00,155 | INFO | plate_logger | Vehicle verified: EU-3497-CC | Type=TRUCK

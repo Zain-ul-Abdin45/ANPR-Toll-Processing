@@ -1,0 +1,50 @@
+2025-07-19 12:16:06,397 | INFO | rfid_logger | RFID found: TAG002
+2025-07-19 12:23:13,970 | INFO | rfid_logger | RFID found: TAG002
+2025-07-19 12:24:28,769 | INFO | rfid_logger | RFID found: TAG002
+2025-07-19 12:28:04,579 | INFO | rfid_logger | RFID found: TAG002
+2025-07-19 12:29:21,536 | INFO | rfid_logger | RFID found: TAG002
+2025-07-19 16:22:07,738 | INFO | rfid_logger | RFID found: TAG458
+2025-07-19 16:24:43,745 | WARNING | rfid_logger | No RFID for: EU-8380-BB
+2025-07-19 16:26:58,038 | INFO | rfid_logger | RFID found: TAG590
+2025-07-19 16:27:03,019 | INFO | rfid_logger | RFID found: TAG590
+2025-07-19 16:27:03,744 | INFO | rfid_logger | RFID found: TAG590
+2025-07-19 16:27:04,347 | INFO | rfid_logger | RFID found: TAG590
+2025-07-19 16:27:05,466 | INFO | rfid_logger | RFID found: TAG590
+2025-07-19 16:43:44,850 | INFO | rfid_logger | RFID found: TAG590
+2025-07-19 16:44:23,834 | INFO | rfid_logger | RFID found: TAG590
+2025-07-19 16:44:24,632 | INFO | rfid_logger | RFID found: TAG590
+2025-07-19 17:01:54,599 | INFO | rfid_logger | RFID found: TAG211
+2025-07-20 17:39:22,955 | INFO | rfid_logger | RFID tag verified: TAG254
+2025-07-21 00:11:39,165 | WARNING | rfid_logger | No active RFID for: EU-1800-BB
+2025-07-21 16:13:22,321 | INFO | rfid_logger | RFID tag verified: TAG254
+2025-07-21 16:18:22,057 | WARNING | rfid_logger | No active RFID for: EU-1800-BB
+2025-07-21 20:20:20,728 | INFO | rfid_logger | RFID tag verified: TAG254
+2025-07-21 20:23:13,145 | INFO | rfid_logger | RFID tag verified: TAG254
+2025-07-21 20:23:42,238 | INFO | rfid_logger | RFID tag verified: TAG254
+2025-07-21 21:05:38,990 | INFO | rfid_logger | RFID tag verified: TAG254
+2025-07-21 21:10:17,048 | INFO | rfid_logger | RFID tag verified: TAG254
+2025-07-21 21:10:31,317 | INFO | rfid_logger | RFID tag verified: TAG254
+2025-07-21 21:14:31,148 | INFO | rfid_logger | RFID tag verified: TAG254
+2025-07-21 21:15:12,770 | INFO | rfid_logger | RFID tag verified: TAG254
+2025-07-21 21:17:05,621 | INFO | rfid_logger | RFID tag verified: TAG254
+2025-07-21 21:31:00,400 | INFO | rfid_logger | RFID tag verified: TAG254
+2025-07-21 21:34:01,878 | INFO | rfid_logger | RFID tag verified: TAG254
+2025-07-21 21:43:17,608 | INFO | rfid_logger | RFID tag verified: TAG254
+2025-07-23 12:08:56,266 | INFO | rfid_logger | RFID tag verified: TAG254
+2025-07-23 12:22:56,994 | INFO | rfid_logger | RFID tag verified: TAG254
+2025-07-23 12:36:45,133 | INFO | rfid_logger | RFID tag verified: TAG254
+2025-07-23 12:42:19,021 | INFO | rfid_logger | RFID tag verified: TAG254
+2025-07-23 12:58:20,229 | INFO | rfid_logger | RFID tag verified: TAG211
+2025-07-23 12:59:02,707 | WARNING | rfid_logger | No active RFID for: EU-3416-CC
+2025-07-23 13:00:47,295 | WARNING | rfid_logger | No active RFID for: EU-3416-CC
+2025-07-23 13:19:37,143 | WARNING | rfid_logger | No active RFID for: EU-3416-CC
+2025-07-23 13:26:33,861 | WARNING | rfid_logger | No active RFID for: EU-3416-CC
+2025-07-23 13:28:39,674 | WARNING | rfid_logger | No active RFID for: EU-3416-CC
+2025-07-23 13:33:26,004 | WARNING | rfid_logger | No active RFID for: EU-3416-CC
+2025-07-23 13:41:55,887 | INFO | rfid_logger | RFID tag verified: TAG211
+2025-07-23 13:42:14,410 | INFO | rfid_logger | RFID tag verified: TAG255
+2025-07-23 15:33:17,683 | INFO | rfid_logger | RFID tag verified: TAG255
+2025-07-24 12:07:45,883 | INFO | rfid_logger | RFID tag verified: TAG254
+2025-07-24 20:10:05,877 | WARNING | rfid_logger | Mismatched tag TAG480 for plate EU-3756-AA
+2025-07-24 20:10:08,738 | WARNING | rfid_logger | Mismatched tag TAG480 for plate EU-3756-AA
+2025-07-24 20:10:35,443 | WARNING | rfid_logger | Mismatched tag TAG211 for plate EU-3756-AA

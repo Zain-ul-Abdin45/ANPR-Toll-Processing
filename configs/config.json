@@ -1,0 +1,9 @@
+{
+    "version": "1.0",
+    "host":"localhost",
+    "port": 5432,
+    "database": "ANPR",
+    "username": "postgres",
+    "password": "admin123",
+    "table": "api_requests"
+}

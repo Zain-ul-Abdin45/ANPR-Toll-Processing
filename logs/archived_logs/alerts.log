@@ -1,0 +1,388 @@
+2025-07-19 11:24:09,929 | ERROR | Fatal error: connection to server at "localhost" (::1), port 5432 failed: FATAL:  role "your_user" does not exist
+
+2025-07-19 11:29:15,103 | ERROR | Fatal error: connection to server at "localhost" (::1), port 5432 failed: FATAL:  role "admin" does not exist
+
+2025-07-19 12:08:19,182 | ERROR | alert_logger | Fatal error: 'user'
+2025-07-19 12:09:48,812 | ERROR | alert_logger | Fatal error: 'host'
+2025-07-19 12:10:02,121 | ERROR | alert_logger | Fatal error: 'host'
+2025-07-19 12:10:21,898 | ERROR | alert_logger | Fatal error: connection to server at "localhost" (::1), port 8080 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 8080 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-07-19 12:14:49,556 | ERROR | alert_logger | Fatal error: connection to server at "localhost" (::1), port 5432 failed: FATAL:  role "admin" does not exist
+
+2025-07-19 12:15:49,917 | ERROR | alert_logger | Fatal error: connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "open_api_db" does not exist
+
+2025-07-19 12:16:06,398 | ERROR | alert_logger | Fatal error: relation "stolen_vehicle_registry" does not exist
+LINE 2:         SELECT reportedDate, reportingAgency FROM stolen_veh...
+                                                          ^
+
+2025-07-19 12:23:13,973 | ERROR | alert_logger | Fatal error: relation "blacklisted_rfid" does not exist
+LINE 2:         SELECT reason, severity FROM blacklisted_rfid
+                                             ^
+
+2025-07-19 12:24:28,770 | ERROR | alert_logger | Fatal error: column "tag_id" does not exist
+LINE 3:         WHERE tag_id = 'TAG002'
+                      ^
+HINT:  Perhaps you meant to reference the column "blacklisted_rfid.tagid".
+
+2025-07-19 12:28:04,581 | ERROR | alert_logger | Fatal error: relation "notification" does not exist
+LINE 2:         INSERT INTO notification (notification_id, message, ...
+                            ^
+
+2025-07-19 12:29:21,541 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG002 used. Reason: Cloned tag detected
+2025-07-19 12:29:21,541 | WARNING | alert_logger | Security flagged vehicle EU-5678-BB → BLACKLISTED
+2025-07-20 17:39:22,961 | WARNING | alert_logger | Insufficient balance (0.94) for toll 5.0 - Vehicle: EU-4567-ZZ
+2025-07-21 16:13:22,324 | WARNING | alert_logger | Insufficient balance (0.94) for toll 5.0 - Vehicle: EU-4567-ZZ
+2025-07-21 20:14:53,295 | ERROR | alert_logger | Fatal error during processing: column "vehicle_plate" does not exist
+LINE 3:         WHERE vehicle_plate = 'EU-4567-ZZ' AND is_active = T...
+                      ^
+
+2025-07-21 20:20:20,731 | WARNING | alert_logger | Insufficient balance (0.94) for toll 5.0 - Vehicle: EU-4567-ZZ
+2025-07-21 20:20:20,731 | ERROR | alert_logger | Fatal error during processing: create_notification() got an unexpected keyword argument 'plaza_id'
+2025-07-21 20:23:13,148 | WARNING | alert_logger | Insufficient balance (0.94) for toll 5.0 - Vehicle: EU-4567-ZZ
+2025-07-21 20:23:42,241 | WARNING | alert_logger | Insufficient balance (0.94) for toll 5.0 - Vehicle: EU-4567-ZZ
+2025-07-21 21:05:38,994 | WARNING | alert_logger | Insufficient balance (0.94) for toll 5.0 - Vehicle: EU-4567-ZZ
+2025-07-21 21:05:38,996 | ERROR | alert_logger | Fatal error during processing: column "ledger_id" of relation "pending_toll_ledger" does not exist
+LINE 2: ...                 INSERT INTO pending_toll_ledger (ledger_id,...
+                                                             ^
+
+2025-07-21 21:10:17,051 | WARNING | alert_logger | Insufficient balance (0.94) for toll 5.0 - Vehicle: EU-4567-ZZ
+2025-07-21 21:10:17,054 | ERROR | alert_logger | Fatal error during processing: column "tag_id" of relation "pending_toll_ledger" does not exist
+LINE 2: ... INTO pending_toll_ledger (ledger_id, vehicle_id, tag_id, pl...
+                                                             ^
+
+2025-07-21 21:10:31,320 | WARNING | alert_logger | Insufficient balance (0.94) for toll 5.0 - Vehicle: EU-4567-ZZ
+2025-07-21 21:10:31,321 | ERROR | alert_logger | Fatal error during processing: column "tag_id" of relation "pending_toll_ledger" does not exist
+LINE 2: ... INTO pending_toll_ledger (ledger_id, vehicle_id, tag_id, pl...
+                                                             ^
+
+2025-07-21 21:14:31,151 | WARNING | alert_logger | Insufficient balance (0.94) for toll 5.0 - Vehicle: EU-4567-ZZ
+2025-07-21 21:14:31,152 | ERROR | alert_logger | Fatal error during processing: column "amount_due" of relation "pending_toll_ledger" does not exist
+LINE 2: ..._ledger (ledger_id, vehicle_id, tag_id, plaza_id, amount_due...
+                                                             ^
+
+2025-07-21 21:15:12,772 | WARNING | alert_logger | Insufficient balance (0.94) for toll 5.0 - Vehicle: EU-4567-ZZ
+2025-07-21 21:15:12,773 | ERROR | alert_logger | Fatal error during processing: column "amount_due" of relation "pending_toll_ledger" does not exist
+LINE 2: ..._ledger (ledger_id, vehicle_id, tag_id, plaza_id, amount_due...
+                                                             ^
+
+2025-07-21 21:17:05,626 | WARNING | alert_logger | Insufficient balance (0.94) for toll 5.0 - Vehicle: EU-4567-ZZ
+2025-07-21 21:17:05,630 | ERROR | alert_logger | Fatal error during processing: invalid input syntax for type uuid: "EU-4567-ZZ"
+LINE 3:                     VALUES (gen_random_uuid(), 'EU-4567-ZZ',...
+                                                       ^
+
+2025-07-21 21:31:00,403 | WARNING | alert_logger | Insufficient balance (0.94) for toll 5.0 - Vehicle: EU-4567-ZZ
+2025-07-21 21:31:00,404 | ERROR | alert_logger | Fatal error during processing: column "created_at" of relation "pending_toll_ledger" does not exist
+LINE 3: ...ger_id, vehicle_id, tag_id, plaza_id, amount_due, created_at
+                                                             ^
+
+2025-07-21 21:34:01,880 | WARNING | alert_logger | Insufficient balance (0.94) for toll 5.0 - Vehicle: EU-4567-ZZ
+2025-07-21 21:34:01,882 | ERROR | alert_logger | Fatal error during processing: invalid input syntax for type uuid: "EU-4567-ZZ"
+LINE 5:                         gen_random_uuid(), 'EU-4567-ZZ', 'TA...
+                                                   ^
+
+2025-07-21 21:43:17,610 | WARNING | alert_logger | Insufficient balance (0.94) for toll 5.0 - Vehicle: EU-4567-ZZ
+2025-07-21 21:43:17,612 | ERROR | alert_logger | Fatal error during processing: invalid input syntax for type uuid: "EU-4567-ZZ"
+LINE 5:                         gen_random_uuid(), 'EU-4567-ZZ', 'TA...
+                                                   ^
+
+2025-07-23 12:08:56,270 | WARNING | alert_logger | Insufficient balance (0.94) for toll 5.0 - Vehicle: EU-4567-ZZ
+2025-07-23 12:08:56,273 | ERROR | alert_logger | Fatal error during processing: invalid input syntax for type uuid: "EU-4567-ZZ"
+LINE 3: ...hicle: EU-4567-ZZ', NOW(), 'LOW_BALANCE', 'HIGH', 'EU-4567-Z...
+                                                             ^
+
+2025-07-23 12:22:56,996 | WARNING | alert_logger | Insufficient balance (0.94) for toll 5.0 - Vehicle: EU-4567-ZZ
+2025-07-23 12:22:56,999 | ERROR | alert_logger | Fatal error during processing: invalid input syntax for type uuid: "EU-4567-ZZ"
+LINE 3: ...hicle: EU-4567-ZZ', NOW(), 'LOW_BALANCE', 'HIGH', 'EU-4567-Z...
+                                                             ^
+
+2025-07-23 12:36:45,135 | WARNING | alert_logger | Insufficient balance (0.94) for toll 5.0 - Vehicle: EU-4567-ZZ
+2025-07-23 12:36:45,138 | ERROR | alert_logger | Fatal error during processing: invalid input syntax for type uuid: "EU-4567-ZZ"
+LINE 3:                     WHERE vehicle_id = 'EU-4567-ZZ' AND plaz...
+                                               ^
+
+2025-07-23 12:58:20,233 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG211 used. Reason: Blacklist
+2025-07-23 12:58:20,233 | WARNING | alert_logger | Security flagged EU-3497-CC → BLACKLISTED
+2025-07-23 12:58:20,236 | WARNING | alert_logger | [SECURITY ALERT] Type: BLACKLISTED | Priority: HIGH | Status: ACTIVE
+2025-07-23 12:58:20,238 | WARNING | alert_logger | [SECURITY INCIDENT] BLACKLISTED Detected | Severity: HIGH | Location: PLZ001
+2025-07-23 13:14:02,560 | WARNING | alert_logger | Unknown toll plaza: PLZ008
+2025-07-23 13:41:55,891 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG211 used. Reason: Blacklist
+2025-07-23 13:41:55,891 | WARNING | alert_logger | Security flagged EU-3497-CC → BLACKLISTED
+2025-07-23 13:41:55,893 | WARNING | alert_logger | [SECURITY ALERT] Type: BLACKLISTED | Priority: HIGH | Status: ACTIVE
+2025-07-23 13:41:55,893 | WARNING | alert_logger | [SECURITY INCIDENT] BLACKLISTED Detected | Severity: HIGH | Location: PLZ001
+2025-07-23 15:33:58,105 | WARNING | alert_logger | Unknown toll plaza: PLZ008
+2025-07-23 15:34:10,231 | WARNING | alert_logger | Unknown toll plaza: PLZ008
+2025-07-23 15:34:16,136 | INFO | alert_logger | NOTIFICATION [UNMATCHED_PLATE] | Unknown vehicle EU-9306-AK
+2025-07-24 12:07:45,889 | WARNING | alert_logger | Insufficient balance (0.94) for toll 5.0 - Vehicle: EU-4567-ZZ
+2025-07-24 12:07:45,894 | ERROR | alert_logger | Fatal error during processing: invalid input syntax for type uuid: "EU-4567-ZZ"
+LINE 3:                     WHERE vehicle_id = 'EU-4567-ZZ' AND plaz...
+                                               ^
+
+2025-07-24 20:10:05,880 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-3756-AA"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-3756-A...
+                                                             ^
+
+2025-07-24 20:10:08,739 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-3756-AA"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-3756-A...
+                                                             ^
+
+2025-07-24 20:10:35,445 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-3756-AA"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-3756-A...
+                                                             ^
+
+2025-07-24 20:11:26,319 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG211 used. Reason: Blacklist
+2025-07-24 20:11:26,319 | WARNING | alert_logger | Security flagged EU-3497-CC → BLACKLISTED
+2025-07-24 20:11:26,321 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-3497-CC"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-3497-C...
+                                                             ^
+
+2025-07-24 20:18:33,068 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG211 used. Reason: Blacklist
+2025-07-24 20:18:33,068 | WARNING | alert_logger | Security flagged EU-3497-CC → BLACKLISTED
+2025-07-24 20:18:33,069 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-3497-CC"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-3497-C...
+                                                             ^
+
+2025-07-24 20:20:01,131 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG211 used. Reason: Blacklist
+2025-07-24 20:20:01,131 | WARNING | alert_logger | Security flagged EU-3497-CC → BLACKLISTED
+2025-07-24 20:20:01,132 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-3497-CC"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-3497-C...
+                                                             ^
+
+2025-07-24 20:23:26,493 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG211 used. Reason: Blacklist
+2025-07-24 20:23:26,493 | WARNING | alert_logger | Security flagged EU-3497-CC → BLACKLISTED
+2025-07-24 20:23:26,494 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-3497-CC"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-3497-C...
+                                                             ^
+
+2025-07-24 20:23:51,356 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG211 used. Reason: Blacklist
+2025-07-24 20:23:51,357 | WARNING | alert_logger | Security flagged EU-3497-CC → BLACKLISTED
+2025-07-24 20:23:51,357 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-3497-CC"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-3497-C...
+                                                             ^
+
+2025-07-24 20:27:31,173 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG211 used. Reason: Blacklist
+2025-07-24 20:27:31,173 | WARNING | alert_logger | Security flagged EU-3497-CC → BLACKLISTED
+2025-07-24 20:27:31,174 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-3497-CC"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-3497-C...
+                                                             ^
+
+2025-07-24 20:30:54,052 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG211 used. Reason: Blacklist
+2025-07-24 20:30:54,052 | WARNING | alert_logger | Security flagged EU-3497-CC → BLACKLISTED
+2025-07-24 20:30:54,055 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-3497-CC"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-3497-C...
+                                                             ^
+
+2025-07-24 20:31:23,235 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG211 used. Reason: Blacklist
+2025-07-24 20:31:23,235 | WARNING | alert_logger | Security flagged EU-3497-CC → BLACKLISTED
+2025-07-24 20:31:23,236 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-3497-CC"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-3497-C...
+                                                             ^
+
+2025-07-24 20:34:35,845 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG211 used. Reason: Blacklist
+2025-07-24 20:34:35,845 | WARNING | alert_logger | Security flagged EU-3497-CC → BLACKLISTED
+2025-07-24 20:34:35,847 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-3497-CC"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-3497-C...
+                                                             ^
+
+2025-07-24 20:34:50,561 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG211 used. Reason: Blacklist
+2025-07-24 20:34:50,561 | WARNING | alert_logger | Security flagged EU-3497-CC → BLACKLISTED
+2025-07-24 20:34:50,561 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-3497-CC"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-3497-C...
+                                                             ^
+
+2025-07-24 20:35:13,944 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG211 used. Reason: Blacklist
+2025-07-24 20:35:13,944 | WARNING | alert_logger | Security flagged EU-3497-CC → BLACKLISTED
+2025-07-24 20:35:13,944 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-3497-CC"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-3497-C...
+                                                             ^
+
+2025-07-24 20:35:51,895 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG211 used. Reason: Blacklist
+2025-07-24 20:35:51,895 | WARNING | alert_logger | Security flagged EU-3497-CC → BLACKLISTED
+2025-07-24 20:35:51,896 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-3497-CC"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-3497-C...
+                                                             ^
+
+2025-07-24 20:36:39,522 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG211 used. Reason: Blacklist
+2025-07-24 20:36:39,522 | WARNING | alert_logger | Security flagged EU-3497-CC → BLACKLISTED
+2025-07-24 20:36:39,522 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-3497-CC"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-3497-C...
+                                                             ^
+
+2025-07-24 20:37:36,384 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG211 used. Reason: Blacklist
+2025-07-24 20:37:36,385 | WARNING | alert_logger | Security flagged EU-3497-CC → BLACKLISTED
+2025-07-24 20:37:36,387 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-3497-CC"
+LINE 5: ...ist', NOW(), 'BLACKLISTED', 'CRITICAL', 'unread', 'EU-3497-C...
+                                                             ^
+
+2025-07-24 20:37:57,189 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG211 used. Reason: Blacklist
+2025-07-24 20:37:57,189 | WARNING | alert_logger | Security flagged EU-3497-CC → BLACKLISTED
+2025-07-24 20:37:57,190 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-3497-CC"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-3497-C...
+                                                             ^
+
+2025-07-24 20:38:27,280 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG211 used. Reason: Blacklist
+2025-07-24 20:38:27,280 | WARNING | alert_logger | Security flagged EU-3497-CC → BLACKLISTED
+2025-07-24 20:38:27,281 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-3497-CC"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-3497-C...
+                                                             ^
+
+2025-07-24 20:38:27,394 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG211 used. Reason: Blacklist
+2025-07-24 20:38:27,394 | WARNING | alert_logger | Security flagged EU-3497-CC → BLACKLISTED
+2025-07-24 20:38:27,394 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-3497-CC"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-3497-C...
+                                                             ^
+
+2025-07-24 20:38:27,565 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG211 used. Reason: Blacklist
+2025-07-24 20:38:27,566 | WARNING | alert_logger | Security flagged EU-3497-CC → BLACKLISTED
+2025-07-24 20:38:27,566 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-3497-CC"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-3497-C...
+                                                             ^
+
+2025-07-24 20:38:27,717 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG211 used. Reason: Blacklist
+2025-07-24 20:38:27,717 | WARNING | alert_logger | Security flagged EU-3497-CC → BLACKLISTED
+2025-07-24 20:38:27,717 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-3497-CC"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-3497-C...
+                                                             ^
+
+2025-07-24 20:38:27,844 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG211 used. Reason: Blacklist
+2025-07-24 20:38:27,844 | WARNING | alert_logger | Security flagged EU-3497-CC → BLACKLISTED
+2025-07-24 20:38:27,844 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-3497-CC"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-3497-C...
+                                                             ^
+
+2025-07-24 20:38:27,984 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG211 used. Reason: Blacklist
+2025-07-24 20:38:27,984 | WARNING | alert_logger | Security flagged EU-3497-CC → BLACKLISTED
+2025-07-24 20:38:27,984 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-3497-CC"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-3497-C...
+                                                             ^
+
+2025-07-24 20:38:56,893 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG211 used. Reason: Blacklist
+2025-07-24 20:38:56,893 | WARNING | alert_logger | Security flagged EU-3497-CC → BLACKLISTED
+2025-07-24 20:38:56,893 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-3497-CC"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-3497-C...
+                                                             ^
+
+2025-07-24 20:42:24,380 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG211 used. Reason: Blacklist
+2025-07-24 20:42:24,380 | WARNING | alert_logger | Security flagged EU-3497-CC → BLACKLISTED
+2025-07-24 20:42:24,381 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-3497-CC"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-3497-C...
+                                                             ^
+
+2025-07-24 20:42:26,321 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG211 used. Reason: Blacklist
+2025-07-24 20:42:26,321 | WARNING | alert_logger | Security flagged EU-3497-CC → BLACKLISTED
+2025-07-24 20:42:26,321 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-3497-CC"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-3497-C...
+                                                             ^
+
+2025-07-24 20:43:40,418 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG211 used. Reason: Blacklist
+2025-07-24 20:43:40,418 | WARNING | alert_logger | Security flagged EU-3497-CC → BLACKLISTED
+2025-07-24 20:43:40,421 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-3497-CC"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-3497-C...
+                                                             ^
+
+2025-07-24 20:56:19,082 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG211 used. Reason: Blacklist
+2025-07-24 20:56:19,082 | WARNING | alert_logger | Security flagged EU-3497-CC → BLACKLISTED
+2025-07-24 20:56:19,083 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-3497-CC"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-3497-C...
+                                                             ^
+
+2025-07-24 21:08:04,193 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG211 used. Reason: Blacklist
+2025-07-24 21:08:04,193 | WARNING | alert_logger | Security flagged EU-3497-CC → BLACKLISTED
+2025-07-24 21:08:04,194 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-3497-CC"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-3497-C...
+                                                             ^
+
+2025-07-24 21:11:39,500 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG211 used. Reason: Blacklist
+2025-07-24 21:11:39,500 | WARNING | alert_logger | Security flagged EU-3497-CC → BLACKLISTED
+2025-07-24 21:11:39,502 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-3497-CC"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-3497-C...
+                                                             ^
+
+2025-07-24 21:12:00,161 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG211 used. Reason: Blacklist
+2025-07-24 21:12:00,163 | WARNING | alert_logger | Security flagged EU-3497-CC → BLACKLISTED
+2025-07-24 21:12:00,170 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-3497-CC"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-3497-C...
+                                                             ^
+
+2025-07-24 21:22:12,144 | INFO | alert_logger | ALERT [BLACKLISTED_TAG] | Blacklisted RFID TAG211 used. Reason: Blacklist
+2025-07-24 21:22:12,149 | INFO | alert_logger | NOTIFICATION [BLACKLISTED] | EU-3497-CC flagged: Blacklist
+2025-07-24 21:22:12,151 | WARNING | alert_logger | [SECURITY ALERT] Type: BLACKLISTED | Priority: HIGH | Status: ACTIVE
+2025-07-24 21:22:12,152 | WARNING | alert_logger | [SECURITY INCIDENT] BLACKLISTED Detected | Severity: HIGH | Location: PLZ001
+2025-07-24 21:36:18,853 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-4567-ZZ"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-4567-Z...
+                                                             ^
+
+2025-07-25 10:35:00,682 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-4567-ZZ"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-4567-Z...
+                                                             ^
+
+2025-07-25 10:35:10,403 | INFO | alert_logger | NOTIFICATION [UNKNOWN_TAG] | Unknown or inactive tag Tag124
+2025-07-25 10:35:16,266 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-4567-ZZ"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-4567-Z...
+                                                             ^
+
+2025-07-25 10:43:07,263 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-4567-ZZ"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-4567-Z...
+                                                             ^
+
+2025-07-25 10:43:38,296 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-4567-ZZ"
+LINE 1: ...pe, model, color FROM vehicles WHERE vehicle_id = 'EU-4567-Z...
+                                                             ^
+
+2025-07-25 10:44:26,988 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-4567-ZZ"
+LINE 6: ...4567-ZZ', NOW(), 'LOW_BALANCE', 'HIGH', 'unread', 'EU-4567-Z...
+                                                             ^
+
+2025-07-25 10:44:27,911 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-4567-ZZ"
+LINE 6: ...4567-ZZ', NOW(), 'LOW_BALANCE', 'HIGH', 'unread', 'EU-4567-Z...
+                                                             ^
+
+2025-07-25 10:49:47,328 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-4567-ZZ"
+LINE 6: ...4567-ZZ', NOW(), 'LOW_BALANCE', 'HIGH', 'unread', 'EU-4567-Z...
+                                                             ^
+
+2025-07-25 11:00:16,250 | WARNING | alert_logger | Insufficient funds for EU-4567-ZZ
+2025-07-25 11:00:16,253 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-4567-ZZ"
+LINE 6: ...4567-ZZ', NOW(), 'LOW_BALANCE', 'HIGH', 'unread', 'EU-4567-Z...
+                                                             ^
+
+2025-07-25 11:07:56,500 | WARNING | alert_logger | Insufficient funds for EU-4567-ZZ
+2025-07-25 11:07:56,501 | WARNING | alert_logger | [SKIPPED_LOOKUP] Expected UUID for vehicle_id, got 'EU-4567-ZZ'
+2025-07-25 11:07:56,504 | INFO | alert_logger | NOTIFICATION [LOW_BALANCE] | Insufficient balance for toll 5.0 - Vehicle: EU-4567-ZZ
+Please top up here: https://smart-toll.local/pay?vehicle=EU-4567-ZZ
+2025-07-25 11:07:56,511 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-4567-ZZ"
+LINE 3:                     WHERE vehicle_id = 'EU-4567-ZZ' AND plaz...
+                                               ^
+
+2025-07-25 11:22:27,618 | WARNING | alert_logger | Insufficient funds for EU-4567-ZZ
+2025-07-25 11:22:27,618 | WARNING | alert_logger | [SKIPPED_LOOKUP] Expected UUID for vehicle_id, got 'EU-4567-ZZ'
+2025-07-25 11:22:27,620 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-4567-ZZ"
+LINE 3:                     WHERE vehicle_id = 'EU-4567-ZZ' AND plaz...
+                                               ^
+
+2025-07-25 11:29:10,883 | WARNING | alert_logger | Insufficient funds for EU-4567-ZZ
+2025-07-25 11:29:10,884 | WARNING | alert_logger | [SKIPPED_LOOKUP] Expected UUID for vehicle_id, got 'EU-4567-ZZ'
+2025-07-25 11:29:10,888 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-4567-ZZ"
+LINE 3:                     WHERE vehicle_id = 'EU-4567-ZZ' AND plaz...
+                                               ^
+
+2025-07-25 11:30:16,395 | WARNING | alert_logger | Insufficient funds for EU-4567-ZZ
+2025-07-25 11:30:16,396 | WARNING | alert_logger | [SKIPPED_LOOKUP] Expected UUID for vehicle_id, got 'EU-4567-ZZ'
+2025-07-25 11:30:16,398 | ERROR | alert_logger | Fatal toll processing error: column "license_plate" does not exist
+LINE 3:                     WHERE license_plate = 'EU-4567-ZZ' AND p...
+                                  ^
+
+2025-07-25 11:34:15,212 | WARNING | alert_logger | Insufficient funds for EU-4567-ZZ
+2025-07-25 11:34:15,212 | WARNING | alert_logger | [SKIPPED_LOOKUP] Expected UUID for vehicle_id, got 'EU-4567-ZZ'
+2025-07-25 11:34:15,214 | ERROR | alert_logger | Fatal toll processing error: invalid input syntax for type uuid: "EU-4567-ZZ"
+LINE 3:                     WHERE vehicle_id = 'EU-4567-ZZ' AND plaz...
+                                               ^
+
+2025-07-25 11:55:41,805 | INFO | alert_logger | NOTIFICATION [LOW_BALANCE] | Insufficient balance for toll 5.0 - Vehicle: EU-4567-ZZ
+Please top up here: https://smart-toll.local/pay?vehicle=57e4ac21-a49f-45dc-993e-0a65334fa29b
+2025-07-25 12:32:16,022 | INFO | alert_logger | NOTIFICATION [TAG_MISSING] | Missing or inactive RFID on EU-3416-CC (Vehicle: EU-3416-CC, white BMW [SEDAN])
+2025-07-25 14:41:18,362 | INFO | alert_logger | NOTIFICATION [TAG_MISSING] | Missing or inactive RFID on EU-8602-CC (Vehicle: EU-8602-CC, purple Volkswagen [SEDAN])
+2025-07-25 14:41:24,584 | INFO | alert_logger | NOTIFICATION [UNKNOWN_TAG] | Unknown or inactive tag TAG001
+2025-07-25 14:55:30,112 | INFO | alert_logger | NOTIFICATION [LICENSE_MISSING] | Missing license plate for tag TAG999 (Vehicle: None, white Hyundai Tucson [SUV])

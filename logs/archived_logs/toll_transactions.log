@@ -1,0 +1,17 @@
+2025-07-19 16:22:07,746 | INFO | txn_logger | Toll deducted: 6.5 from account b81c9662-d567-4ac5-9fc7-b25dd9ab692b
+2025-07-19 16:26:58,043 | INFO | txn_logger | Toll deducted: 5.0 from account 5dd35bd7-f7ea-49bd-ba9e-0ebe29204305
+2025-07-19 16:27:03,023 | INFO | txn_logger | Toll deducted: 5.0 from account 5dd35bd7-f7ea-49bd-ba9e-0ebe29204305
+2025-07-19 16:27:03,749 | INFO | txn_logger | Toll deducted: 5.0 from account 5dd35bd7-f7ea-49bd-ba9e-0ebe29204305
+2025-07-19 16:27:04,351 | INFO | txn_logger | Toll deducted: 5.0 from account 5dd35bd7-f7ea-49bd-ba9e-0ebe29204305
+2025-07-19 16:27:05,469 | INFO | txn_logger | Toll deducted: 5.0 from account 5dd35bd7-f7ea-49bd-ba9e-0ebe29204305
+2025-07-19 16:43:44,855 | INFO | txn_logger | Toll deducted: 5.0 from account 5dd35bd7-f7ea-49bd-ba9e-0ebe29204305
+2025-07-19 16:44:23,838 | INFO | txn_logger | Toll deducted: 5.0 from account 5dd35bd7-f7ea-49bd-ba9e-0ebe29204305
+2025-07-19 16:44:24,635 | INFO | txn_logger | Toll deducted: 5.0 from account 5dd35bd7-f7ea-49bd-ba9e-0ebe29204305
+2025-07-19 17:01:54,603 | INFO | txn_logger | Toll deducted: 8.75 from account b68a4fee-f9e3-4c46-92e2-845672073132
+2025-07-23 13:42:14,419 | INFO | txn_logger | Toll of 6.5 deducted from account 4eaeef8b-c13d-479b-9450-c3b2eb3ec2b5
+2025-07-23 15:33:17,689 | INFO | txn_logger | Toll of 6.5 deducted from account 4eaeef8b-c13d-479b-9450-c3b2eb3ec2b5
+2025-07-24 17:33:44,244 | INFO | txn_logger | EU-3756-AA: Toll 5.0 deducted from account 0f90a990-41d9-454f-a564-f2e8fbe424f2
+2025-07-24 17:34:17,308 | INFO | txn_logger | EU-3756-AA: Toll 5.0 deducted from account 0f90a990-41d9-454f-a564-f2e8fbe424f2
+2025-07-25 12:01:46,977 | INFO | txn_logger | Toll of 6.5 deducted from account 53839dd5-ba70-4950-859a-d688a21b8993
+2025-07-25 12:12:05,928 | INFO | txn_logger | Toll of 5.0 deducted from account 2d9309e9-7a9d-492f-93c1-9a4f387fa36e
+2025-07-25 14:41:58,681 | INFO | txn_logger | Toll of 6.5 deducted from account 4fac82f3-1c79-43d5-b0d2-6c3917a16188

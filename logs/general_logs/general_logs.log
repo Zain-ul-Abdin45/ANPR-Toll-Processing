@@ -1,0 +1,44 @@
+2025-07-28 11:26:38,276 | INFO | general_logger | 🚨 Test alert logger working
+2025-07-28 11:26:44,570 | INFO | general_logger | Test general logger working
+2025-07-28 11:34:25,773 | INFO | general_logger | Test general logger working
+2025-07-28 11:48:42,026 | INFO | general_logger | Test general logger working
+2025-07-28 12:30:21,458 | INFO | general_logger | Test general logger working
+2025-07-28 12:30:30,611 | INFO | general_logger | Test general logger working
+2025-07-28 12:31:18,016 | INFO | general_logger | Test general logger working
+2025-07-28 12:33:56,409 | INFO | general_logger | Test general logger working
+2025-07-28 12:34:01,390 | INFO | general_logger | Test general logger working
+2025-07-28 12:34:31,482 | INFO | general_logger | process_toll_flexible() CALLED
+2025-07-28 12:38:44,158 | INFO | general_logger | Test general logger working
+2025-07-28 12:39:05,257 | INFO | general_logger | Test general logger working
+2025-07-28 12:41:33,853 | INFO | general_logger | Test general logger working
+2025-07-28 12:44:00,657 | INFO | general_logger | Test general logger working
+2025-07-28 13:12:59,021 | INFO | general_logger | Test general logger working
+2025-07-28 13:13:50,708 | INFO | general_logger | Test general logger working
+2025-07-28 13:20:07,272 | INFO | general_logger | process_toll_flexible() CALLED
+2025-07-28 13:21:53,853 | INFO | general_logger | Test general logger working
+2025-07-28 13:22:12,597 | INFO | general_logger | Toll Process Started...
+2025-07-28 13:22:12,634 | INFO | general_logger | Resolved vehicle from plate: ID=a2b967c6-bf56-4cca-abb9-b5f43d0f8628, Type=TRUCK, Owner=OWN071
+2025-07-28 13:24:55,315 | INFO | general_logger | Test general logger working
+2025-07-28 13:24:59,079 | INFO | general_logger | Toll Process Started...
+2025-07-28 13:24:59,110 | INFO | general_logger | Resolved vehicle from plate: ID=a2b967c6-bf56-4cca-abb9-b5f43d0f8628, Type=TRUCK, Owner=OWN071
+2025-07-28 13:24:59,112 | INFO | general_logger | Running security checks for Plate=EU-8863-DD, Tag=TAG774
+2025-07-28 13:24:59,115 | INFO | general_logger | Fetching vehicle type for EU-8863-DD (ID: a2b967c6-bf56-4cca-abb9-b5f43d0f8628)
+2025-07-28 13:24:59,115 | INFO | general_logger | Toll amount for TRUCK: 8.75
+2025-07-28 13:24:59,115 | INFO | general_logger | Checking account for owner_id: OWN071
+2025-07-28 13:24:59,119 | INFO | general_logger | Account found: ID=78e1dfd7-9e6c-47cb-b6c0-58af01d554aa, Balance=70.86
+2025-07-28 13:35:40,442 | INFO | general_logger | Test general logger working
+2025-07-28 13:36:28,856 | INFO | general_logger | Test general logger working
+2025-07-28 13:36:39,332 | INFO | general_logger | Test general logger working
+2025-07-28 13:36:54,761 | INFO | general_logger | Test general logger working
+2025-07-28 13:37:21,075 | INFO | general_logger | Toll Process Started...
+2025-07-28 13:37:21,098 | INFO | general_logger | Processing toll for LICENSE_PLATE: EU-2198-AA
+2025-07-28 13:37:21,102 | INFO | general_logger | Resolved vehicle from plate: ID=d28e6a5e-9a82-43da-8c3f-dfeb5ed75a99, Type=SUV, Owner=OWN044
+2025-07-28 13:37:21,103 | INFO | general_logger | Active tag_id found: TAG450 for plate EU-2198-AA
+2025-07-28 13:37:21,104 | INFO | general_logger | Running security checks for Plate=EU-2198-AA, Tag=TAG450
+2025-07-28 13:37:21,105 | INFO | general_logger | Fetching vehicle type for EU-2198-AA (ID: d28e6a5e-9a82-43da-8c3f-dfeb5ed75a99)
+2025-07-28 13:37:21,105 | INFO | general_logger | Toll amount for SUV: 6.5
+2025-07-28 13:37:21,105 | INFO | general_logger | Checking account for owner_id: OWN044
+2025-07-28 13:37:21,106 | INFO | general_logger | Account found: ID=5dd35bd7-f7ea-49bd-ba9e-0ebe29204305, Balance=39.769999999999996
+2025-07-28 13:52:54,227 | INFO | general_logger | Test general logger working
+2025-07-28 13:52:59,981 | INFO | general_logger | Toll Process Started...
+2025-07-28 13:53:00,018 | WARNING | general_logger | Invalid toll plaza: PLZ004

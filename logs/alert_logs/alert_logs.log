@@ -1,0 +1,8 @@
+2025-07-28 11:02:14,703 | INFO | alert_logger | NOTIFICATION [TAG_MISSING] | Missing or inactive RFID on EU-5842-BB (Vehicle: EU-5842-BB, gray BMW [SUV])
+2025-07-28 11:02:27,369 | INFO | alert_logger | NOTIFICATION [LOW_BALANCE] | Insufficient balance for toll 8.75 - Vehicle: EU-4101-BB
+Please top up here: https://smart-toll.local/pay?vehicle=4bfd5c75-a304-421d-881e-f248bb4652da
+2025-07-28 12:34:31,536 | INFO | alert_logger | NOTIFICATION [UNMATCHED_PLATE] | Unknown vehicle EU-4454-FF
+2025-07-28 13:22:12,639 | ERROR | alert_logger | EXCEPTION during toll processing: 'Logger' object is not callable
+2025-07-28 13:37:21,114 | ERROR | alert_logger | EXCEPTION during toll processing: insert or update on table "toll_transactions" violates foreign key constraint "toll_transactions_plaza_id_fkey"
+DETAIL:  Key (plaza_id)=(PLZ004) is not present in table "toll_plazas".
+
