@@ -101,13 +101,13 @@ CREATE DATABASE anpr;
 
 ---
 
-## 🧪 Step 5: Test DB Connection
+## Step 5: Test DB Connection
 
 Optionally run a test connection script to verify DB config.
 
 ---
 
-## 🚀 Step 6: Run the FastAPI Server
+## Step 6: Run the FastAPI Server
 
 ```bash
 uvicorn main:app --reload
@@ -121,7 +121,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-## 📌 Notes
+## Notes
 
 - Ensure `.env` or `config.json` matches your environment.
 - Logging and alert logs will be created inside the `logs/` directory.
