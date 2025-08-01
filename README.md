@@ -129,5 +129,5 @@ http://127.0.0.1:8000/docs
 
 ---
 
-### 📄 Use-Case Scenarios
+### Use-Case Scenarios
 Refer to (docs/Use-Case-ANPR-System.pdf) for detailed API payloads, edge cases, and system responses.
