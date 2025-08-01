@@ -128,3 +128,6 @@ http://127.0.0.1:8000/docs
 - Use `render` for cloud deployment if desired.
 
 ---
+
+### 📄 Use-Case Scenarios
+Refer to (docs/Use-Case-ANPR-System.pdf) for detailed API payloads, edge cases, and system responses.
