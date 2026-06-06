@@ -1,9 +1,9 @@
 {
     "version": "1.0",
-    "host":"localhost",
+    "host":"localhost", //actual server host
     "port": 5432,
     "database": "ANPR",
-    "username": "postgres",
-    "password": "admin123",
+    "username": "postgres", //actual username
+    "password": "postgres", //actual password
     "table": "api_requests"
 }
